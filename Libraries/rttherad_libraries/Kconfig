@@ -1,0 +1,8 @@
+config RTT_DIR
+    string
+    option env="RTT_ROOT"
+    default "."
+    
+source "src/Kconfig"
+source "libcpu/Kconfig"
+source "components/Kconfig"
